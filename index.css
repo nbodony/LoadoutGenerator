@@ -1,0 +1,147 @@
+.head {
+  background-color:#37312e;
+  max-height: 75%;
+  overflow: hidden;
+}
+
+h1 {
+  color: #ece3cb;
+}
+.subheading {
+  color: #ece3cb;
+}
+.container {
+    background-color: #37312e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+img {
+  position: fixed;
+  max-width: 100%;
+  image-resolution: from-image;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.action {
+    margin: 10px;
+    
+}
+.classButton {
+  padding: 4px 12px;
+    border: none;
+    background-color: #766b5e;
+    color: #ece3cb;
+    cursor: pointer;
+}
+.loadoutSlots {
+  position: fixed;
+  display: block;
+}
+  #slot1 {
+  position: relative;
+  font-size: 2.5vh;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  height: 150px;
+  width: 300px;
+  background-color: #766b5e;
+  }
+  #slot1Image {
+    image-resolution: from-image;
+    position: absolute;
+    height: auto;
+    min-width: 30%;
+    margin-top: 10px;
+    left: 50%;
+    top: 20px;
+  }
+  .slot2 {
+  font-size: 2.5vh;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  height: 150px;
+  width: 300px;
+  background-color: #766b5e;
+  }
+  #slot2Image {
+    image-resolution: from-image;
+    position: absolute;
+    height: auto;
+    min-width: 30%;
+    margin-top: 170px;
+    left: 50%;
+    top: 20px;
+  }
+  .slot3 {
+  font-size: 2.5vh;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  height: 150px;
+  width: 300px;
+  background-color: #766b5e;
+  }
+  #slot3Image {
+    image-resolution: from-image;
+    position: absolute;
+    height: auto;
+    min-width: 30%;
+    margin-top: 330px;
+    left: 50%;
+    top: 20px;
+  }
+  .slot4 {
+  font-size: 2.5vh;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  height: 150px;
+  width: 300px;
+  background-color: #766b5e;
+  }
+  #slot4Image {
+    image-resolution: from-image;
+    position: absolute;
+    height: auto;
+    min-width: 30%;
+    margin-top: 490px;
+    left: 50%;
+    top: 20px;
+  }
+.model {
+  margin-left: 700px;
+  margin-top: 10px;
+  height: 700px;
+  width: 500px;
+  background-color: #766b5e;
+}
+.classLoadout {
+  display:block;
+  position: fixed;
+  margin: 10px;
+  background-color: #766b5e;
+  cursor: pointer;
+  text-align: center;
+}
+.loadoutButton {
+  font-size: 2.5vh;
+  padding: 25px 50px;
+  border: none;
+  background-color: #766b5e;
+  color: #ece3cb;
+  cursor: pointer;
+}
+.itemImages {
+  position:absolute;
+   z-index: 99999;
+   top: 0;
+   left:0;
+}
