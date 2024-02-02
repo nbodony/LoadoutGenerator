@@ -4,6 +4,7 @@ function displayImage(input) {
         console.log("displayScout")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('scout').style.display='inline-block';
         selectedClass = 0
         console.log(selectedClass)
@@ -12,6 +13,7 @@ function displayImage(input) {
         console.log("displaySoldier")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('soldier').style.display='inline-block';
         selectedClass = 1
         console.log(selectedClass)
@@ -20,6 +22,7 @@ function displayImage(input) {
         console.log("displayPyro")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('pyro').style.display='inline-block';
         selectedClass = 2
         console.log(selectedClass)
@@ -28,6 +31,7 @@ function displayImage(input) {
         console.log("displayDemoman")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('demoman').style.display='inline-block';
         selectedClass = 3
         console.log(selectedClass)
@@ -36,6 +40,7 @@ function displayImage(input) {
         console.log("displayHeavy")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('heavy').style.display='inline-block';
         selectedClass = 4
         console.log(selectedClass)
@@ -44,6 +49,7 @@ function displayImage(input) {
         console.log("displayEngineer")
         removeFrom()
         displayAll()
+        combinationsCount(input)
         document.getElementById('engineer').style.display='inline-block';
         selectedClass = 5
         console.log(selectedClass)
@@ -52,6 +58,7 @@ function displayImage(input) {
         console.log("displayMedic")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('medic').style.display='inline-block';
         selectedClass = 6
         console.log(selectedClass)
@@ -60,6 +67,7 @@ function displayImage(input) {
         console.log("displaySniper")
         removeFrom()
         displayThree()
+        combinationsCount(input)
         document.getElementById('sniper').style.display='inline-block';
         selectedClass = 7
         console.log(selectedClass)
@@ -68,6 +76,7 @@ function displayImage(input) {
         console.log("displaySpy")
         removeFrom()
         displayAll()
+        combinationsCount(input)
         document.getElementById('spy').style.display='inline-block';
         selectedClass = 8
         console.log(selectedClass)
@@ -114,4 +123,5 @@ function removeFrom() {
     document.getElementById('slot2Image').src = "";
     document.getElementById('slot3Image').src = "";
     document.getElementById('slot4Image').src = "";
+    document.getElementById('combinations').innerText='none';
 }

@@ -145,3 +145,16 @@ img {
    top: 0;
    left:0;
 }
+#combinations {
+  width: 150px;
+  height: 50px;
+  position: fixed;
+  font-size: 2vh;
+  border: none;
+  background-color: #766b5e;
+  color: #ece3cb;
+  cursor: pointer;
+  top: 350px;
+  left: 18px;
+  text-align: center;
+}

@@ -197,6 +197,7 @@ function createLoadout(input) {
         }
     }
  }
+
 function assignScoutImage1(input) {
     if (input == 0) {
         return "./images/defaultScattergun.png";
@@ -781,4 +782,43 @@ function assignSpyImage4(input) {
     if (input == 1) {
         return "./images/RedTapeRecorder.png";
     } 
+}
+
+function combinationsCount(input) {
+    if (input == 0) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 336';
+    }
+    if (input == 1) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 560';
+    }
+    if (input == 2) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 450';
+    }
+    if (input == 3) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 336';
+    }
+    if (input == 4) {
+        document.getElementById('combinations').style="display:block;"   
+        document.getElementById('combinations').innerText = 'Unique Combinations: 245';
+    }
+    if (input == 5) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 90';
+    }
+    if (input == 6) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 80';
+    }
+    if (input == 7) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 168';
+    }
+    if (input == 8) {
+        document.getElementById('combinations').style="display:block;"
+        document.getElementById('combinations').innerText = 'Unique Combinations: 150';
+    }
 }
