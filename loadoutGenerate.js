@@ -812,7 +812,7 @@ function combinationsCount(input) {
     }
     if (input == 8) {
         document.getElementById('combinations').style="display:block;"
-        document.getElementById('combinations').innerText = 'Combinations: 150';
+        document.getElementById('combinations').innerText = 'Unique Combinations: 150';
     }
 }
 
