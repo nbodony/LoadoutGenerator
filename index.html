@@ -21,16 +21,16 @@
         <div class="present" id="presentID"></div>
         <div class="action">
           <script src="./loadoutGenerate.js" defer></script>
-          <button class="classButton" onclick="displayImage(0)" onclick="classSelect(0)">Scout</button>
-          <button class="classButton" onclick="displayImage(1)" onclick="classSelect(1)">Soldier</button>
-          <button class="classButton" onclick="displayImage(2)" onclick="classSelect(2)">Pyro</button>
-          <button class="classButton" onclick="displayImage(3)" onclick="classSelect(3)">Demoman</button>
-          <button class="classButton" onclick="displayImage(4)" onclick="classSelect(4)">Heavy</button>
-          <button class="classButton" onclick="displayImage(5)" onclick="classSelect(5)">Engineer</button>
-          <button class="classButton" onclick="displayImage(6)" onclick="classSelect(6)">Medic</button>
-          <button class="classButton" onclick="displayImage(7)" onclick="classSelect(7)">Sniper</button>
-          <button class="classButton" onclick="displayImage(8)" onclick="classSelect(8)">Spy</button>
-          <button class="classButton" id="rand" onclick="displayImage(Random(1))" onclick="classSelect(Random(1))">Random</button>
+          <button class="classButton" onclick="displayImage(0);createLoadout(selectedClass)">Scout</button>
+          <button class="classButton" onclick="displayImage(1);createLoadout(selectedClass)">Soldier</button>
+          <button class="classButton" onclick="displayImage(2);createLoadout(selectedClass)">Pyro</button>
+          <button class="classButton" onclick="displayImage(3);createLoadout(selectedClass)">Demoman</button>
+          <button class="classButton" onclick="displayImage(4);createLoadout(selectedClass)">Heavy</button>
+          <button class="classButton" onclick="displayImage(5);createLoadout(selectedClass)">Engineer</button>
+          <button class="classButton" onclick="displayImage(6);createLoadout(selectedClass)">Medic</button>
+          <button class="classButton" onclick="displayImage(7);createLoadout(selectedClass)">Sniper</button>
+          <button class="classButton" onclick="displayImage(8);createLoadout(selectedClass)">Spy</button>
+          <button class="classButton" id="rand" onclick="displayImage(Random(1));createLoadout(selectedClass)">Random</button>
           <!-- <button onclick="removeFrom(0)">remove</button> would delete all UI eventually -->
         </div>
       </div>
@@ -58,7 +58,8 @@
           
   
           </div>  
-          <div id="model" class="model" style="display:none;"></div>
+          <div id="model" class="model" style="display:none;">
+            </div>
           <div id="generateButton" class="classLoadout" style="display:none;">
             <script src="./loadoutGenerate.js" defer></script>
             <button id="generateButtonClickable" class="loadoutButton" 
@@ -66,6 +67,18 @@
       </div>
       <div id="combinations" style="display:none;"></div>
 
+
+      <div id="classmodel" class="classmodel">
+        <img id="scoutmodel" src="./images/ScoutModel.png" style="display:none;"/>
+        <img id="soldiermodel" src="./images/SoldierModel.png" style="display:none;"/>
+        <img id="pyromodel" src="./images/PyroModel.png" style="display:none;"/>
+        <img id="demomanmodel" src="./images/DemomanModel.png" style="display:none;"/>
+        <img id="heavymodel" src="./images/HeavyModel.png" style="display:none;"/>
+        <img id="engineermodel" src="./images/EngineerModel.png" style="display:none;"/>
+        <img id="medicmodel" src="./images/MedicModel.png" style="display:none;"/>
+        <img id="snipermodel" src="./images/SniperModel.png" style="display:none;"/>
+        <img id="spymodel" src="./images/SpyModel.png" style="display:none;"/>
+      </div>
     </div>
     
     

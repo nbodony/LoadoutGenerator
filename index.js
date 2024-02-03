@@ -5,6 +5,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('scout').style.display='inline-block';
         selectedClass = 0
         console.log(selectedClass)
@@ -14,6 +15,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('soldier').style.display='inline-block';
         selectedClass = 1
         console.log(selectedClass)
@@ -23,6 +25,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('pyro').style.display='inline-block';
         selectedClass = 2
         console.log(selectedClass)
@@ -32,6 +35,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('demoman').style.display='inline-block';
         selectedClass = 3
         console.log(selectedClass)
@@ -41,6 +45,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('heavy').style.display='inline-block';
         selectedClass = 4
         console.log(selectedClass)
@@ -50,6 +55,7 @@ function displayImage(input) {
         removeFrom()
         displayAll()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('engineer').style.display='inline-block';
         selectedClass = 5
         console.log(selectedClass)
@@ -59,6 +65,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('medic').style.display='inline-block';
         selectedClass = 6
         console.log(selectedClass)
@@ -68,6 +75,7 @@ function displayImage(input) {
         removeFrom()
         displayThree()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('sniper').style.display='inline-block';
         selectedClass = 7
         console.log(selectedClass)
@@ -77,6 +85,7 @@ function displayImage(input) {
         removeFrom()
         displayAll()
         combinationsCount(input)
+        modelCreate(input)
         document.getElementById('spy').style.display='inline-block';
         selectedClass = 8
         console.log(selectedClass)
@@ -124,4 +133,14 @@ function removeFrom() {
     document.getElementById('slot3Image').src = "";
     document.getElementById('slot4Image').src = "";
     document.getElementById('combinations').innerText='none';
+    document.getElementById('scoutmodel').src = "";
+    document.getElementById('soldiermodel').src = "";
+    document.getElementById('pyromodel').src = "";
+    document.getElementById('demomanmodel').src = "";
+    document.getElementById('heavymodel').src = "";
+    document.getElementById('engineermodel').src = "";
+    document.getElementById('medicmodel').src = "";
+    document.getElementById('snipermodel').src = "";
+    document.getElementById('spymodel').src = "";
+
 }

@@ -1,10 +1,3 @@
-    var selectedClass = 0
-function classSelect(inputVar) {
-    selectedClass = inputVar
-    console.log(selectedClass)
-    console.log("classSelect called")
-}
-
 function randomScout1() {
     return Math.floor(Math.random() * 6);
 }
@@ -819,6 +812,54 @@ function combinationsCount(input) {
     }
     if (input == 8) {
         document.getElementById('combinations').style="display:block;"
-        document.getElementById('combinations').innerText = 'Unique Combinations: 150';
+        document.getElementById('combinations').innerText = 'Combinations: 150';
+    }
+}
+
+function modelCreate(input) {
+    if (input == 0) {
+        document.getElementById('scoutmodel').style="display:block;"
+        document.getElementById('scoutmodel').src="./images/ScoutModel.png"
+        console.log("scoutmodelcreated")
+    }
+    if (input == 1) {
+        document.getElementById('soldiermodel').style="display:block;"
+        document.getElementById('soldiermodel').src="./images/SoldierModel.png"
+        console.log("soldiermodelcreated")
+    }
+    if (input == 2) {
+        document.getElementById('pyromodel').style="display:block;"
+        document.getElementById('pyromodel').src="./images/PyroModel.png"
+        console.log("pyromodelcreated")
+    }
+    if (input == 3) {
+        document.getElementById('demomanmodel').style="display:block;"
+        document.getElementById('demomanmodel').src="./images/DemomanModel.png"
+        console.log("demomanmodelcreated")
+    }
+    if (input == 4) {
+        document.getElementById('heavymodel').style="display:block;"
+        document.getElementById('heavymodel').src="./images/HeavyModel.png"
+        console.log("heavymodelcreated")
+    }
+    if (input == 5) {
+        document.getElementById('engineermodel').style="display:block;"
+        document.getElementById('engineermodel').src="./images/EngineerModel.png"
+        console.log("engineermodelcreated")
+    }
+    if (input == 6) {
+        document.getElementById('medicmodel').style="display:block;"
+        document.getElementById('medicmodel').src="./images/MedicModel.png"
+        console.log("medicmodelcreated")
+    }
+    if (input == 7) {
+        document.getElementById('snipermodel').style="display:block;"
+        document.getElementById('snipermodel').src="./images/SniperModel.png"
+        console.log("snipermodelcreated")
+    }
+    if (input == 8) {
+        document.getElementById('spymodel').style="display:block;"
+        document.getElementById('spymodel').src="./images/SpyModel.png"
+        console.log("spymodelcreated")
     }
 }
